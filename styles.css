@@ -1,0 +1,335 @@
+body {
+  margin: 0;
+  min-width: 380px;
+  font-family: "Noto Sans", sans-serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+}
+main {
+  width: 100%;
+  height: 140vh;
+  background-color: rgb(232, 237, 243);
+  box-sizing: border-box;
+}
+
+.about-solar-energy {
+  width: 100%;
+  height: 650px;
+  background-image: url("./Images/image4.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: whitesmoke;
+}
+
+nav ul {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  font-weight: 300;
+  text-shadow: -1px -1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.title-and-description-wrapper {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-gap: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 7.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  color: whitesmoke;
+}
+
+.description p {
+  color: whitesmoke;
+  font-size: 1.3rem;
+  margin-top: 0.5rem;
+  text-shadow: -1px -1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.about-mission {
+  width: 100%;
+  height: 600px;
+}
+.mission-and-description-wrapper {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  grid-gap: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  margin-top: 3.5rem;
+}
+
+h3 {
+  margin: 0;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  color: rgb(43, 61, 124);
+  padding-right: 7rem;
+}
+
+.about-mission-btn {
+  all: unset;
+  width: 160px;
+  height: 30px;
+  border: 1px rgb(75, 84, 120) solid;
+  text-align: center;
+  border-radius: 1.4rem;
+  color: rgb(75, 84, 120);
+  background-color: rgb(232, 237, 243);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.mission-description {
+  border-left: 2px rgb(62, 74, 123) solid;
+  padding-left: 1rem;
+}
+
+h5 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: rgb(43, 61, 124);
+}
+
+.mission-description p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: rgb(75, 84, 120);
+}
+
+.about-less-pollution {
+  width: 100%;
+  height: 550px;
+}
+.about-less-pollution img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  margin-top: 4rem;
+}
+
+.pollution-description-wrapper {
+  width: 600px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  position: relative;
+  bottom: 450px;
+}
+
+.pollution-description-wrapper h4 {
+  text-shadow: -1px -1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.pollution-description-wrapper h3 {
+  margin: 0;
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  color: whitesmoke;
+  text-shadow: -1px -1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.pollution-description-wrapper p {
+  margin:0;
+  padding-top: 1.3rem;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  text-shadow: -1px -1px 6px rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 6.5rem;
+  }
+
+  .description p {
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    font-size: 4rem;
+    margin-top: 3.5rem;
+  }
+  h5,
+  .mission-description p {
+    font-size: 0.9rem;
+  }
+  .mission-and-description-wrapper {
+    margin-top: 3rem;
+  }
+
+  nav ul li a {
+    font-size: 0.7rem;
+  }
+
+  .about-mission-btn {
+    width: 130px;
+    height: 25px;
+    font-size: 0.7rem;
+    cursor: pointer;
+  }
+
+  .pollution-description-wrapper h4 {
+    font-size: 0.9rem;
+  }
+
+  .pollution-description-wrapper h3 {
+    font-size: 4.2rem;
+  }
+
+  .pollution-description-wrapper p {
+    font-size: 1.1rem;
+  }
+
+  .pollution-description-wrapper {
+    width: 550px;
+}
+
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .description p {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 3rem;
+    margin-top: 3rem;
+  }
+  h5,
+  .mission-description p {
+    font-size: 0.8rem;
+  }
+  .mission-and-description-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .about-mission-btn {
+    width: 100px;
+    height: 20px;
+    font-size: 0.6rem;
+    cursor: pointer;
+  }
+
+  .mission-and-description-wrapper {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+  }
+
+  .pollution-description-wrapper h4 {
+    font-size: 0.8rem;
+  }
+
+  .pollution-description-wrapper h3 {
+    font-size: 3.3rem;
+  }
+
+  .pollution-description-wrapper p {
+    font-size: 1rem;
+  }
+
+  .pollution-description-wrapper {
+    width: 450px;
+}
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  .description p {
+    font-size: 0.9rem;
+  }
+
+  .title-and-description-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin-top: 5rem;
+  }
+    header {
+    display: flex;
+    justify-content: space-around;
+    }
+
+  h3 {
+    font-size: 3rem;
+    margin-top: 1rem;
+  }
+  h5,
+  .mission-description p {
+    font-size: 0.8rem;
+  }
+  .mission-and-description-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  .about-mission-btn {
+    width: 90px;
+    height: 20px;
+    font-size: 0.6rem;
+    cursor: pointer;
+  }
+
+  .mission-and-description-wrapper {
+    display: grid;
+    grid-template-columns: auto;
+  }
+
+  .pollution-description-wrapper h4 {
+    font-size: 0.7rem;
+  }
+
+  .pollution-description-wrapper h3 {
+    font-size: 3rem;
+  }
+
+  .pollution-description-wrapper p {
+    font-size: 0.9rem;
+  }
+
+  .pollution-description-wrapper {
+    width: 400px;
+}
+}
